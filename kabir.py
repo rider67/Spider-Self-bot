@@ -11,29 +11,29 @@ import time
 from discord.voice_client import VoiceClient
 from discord import Game, Embed, Color, Status, ChannelType
 
-client = Bot(description="DarkBot Bot is best", command_prefix="d!", pm_help = True)
+client = Bot(description="Akhil is best", command_prefix="d!", pm_help = True)
 client.remove_command('help')
 
 
 async def status_task():
     while True:
-        await client.change_presence(game=discord.Game(type=1,name='HAPPY CITY'))
+        await client.change_presence(game=discord.Game(type=1,name='PUBG'))
         await asyncio.sleep(5)
-        await client.change_presence(game=discord.Game(type=1,name="With My girl friend"))
+        await client.change_presence(game=discord.Game(type=1,name="Clash Of Clans"))
         await asyncio.sleep(5)
-        await client.change_presence(game=discord.Game(name='with Python coding',type=3))
+        await client.change_presence(game=discord.Game(name='Harry potter',type=3))
         await asyncio.sleep(5)
-        await client.change_presence(game=discord.Game(name=' your love and affection'))
+        await client.change_presence(game=discord.Game(name=' QUIPP '))
         await asyncio.sleep(5)
-        await client.change_presence(game=discord.Game(type=1,name=f'ghhh'))
+        await client.change_presence(game=discord.Game(type=1,name=f'Friends'))
         await asyncio.sleep(5)
-        await client.change_presence(game=discord.Game(type=1,name=f'with vgg'))
+        await client.change_presence(game=discord.Game(type=1,name=f'Its Spider'))
         await asyncio.sleep(5)
-        await client.change_presence(game=discord.Game(type=1,name='with MoonliteツTrivia V2.0'))
+        await client.change_presence(game=discord.Game(type=1,name='with TRIVIA NIGHT'))
         await asyncio.sleep(5)
         await client.change_presence(game=discord.Game(name='bada pachtaoge',type=2))
         await asyncio.sleep(5)
-        await client.change_presence(game=discord.Game(name='HAPPY CITY',type=3))
+        await client.change_presence(game=discord.Game(name='HAVE A NICE DAY',type=3))
         await asyncio.sleep(5)
 
 
@@ -48,4 +48,4 @@ async def on_ready():
 
 
 
-client.run("Njg2MjE3MzQ4MTQ2NzkwNDQ0.XmT_3A.FSMrUboEuaGm9TFr7925PwGI1ms", bot=False)
+client.run("NTY2NDg0MjgzNDM5NzEwMjIx.XnCe8w.sE1BqOMCQGXZh6pXk8kXF-9ZXhI", bot=False)
